@@ -1,0 +1,234 @@
+{
+    "nav": {
+        "home": "Inicio",
+        "about": "Sobre mí",
+        "experience": "Experiencia",
+        "skills": "Habilidades",
+        "projects": "Proyectos",
+        "contact": "Contacto"
+    },
+    "hero": {
+        "greeting": "Hola, mi nombre es",
+        "name": "Luis Guerrero",
+        "role": "Frontend Developer",
+        "description": "Creo aplicaciones web modernas, accesibles y adaptables a diferentes dispositivos.",
+        "networks": "Redes profesionales",
+        "resume": "Currículum",
+        "viewResume": "Ver CV"
+    },
+    "about": {
+        "label": "Conóceme",
+        "title": "Sobre mí",
+        "firstParagraph": "Soy estudiante de noveno ciclo de Ingeniería de Sistemas con experiencia práctica desarrollando soluciones web y de sistemas.",
+        "secondParagraph": "Tengo conocimientos en programación, APIs REST, bases de datos y pruebas de software. Me interesa seguir aprendiendo y desarrollándome profesionalmente en el área tecnológica.",
+        "educationTitle": "Formación",
+        "education": "Ingeniería de Sistemas - Universidad Señor de Sipán",
+        "focusTitle": "Enfoque",
+        "focus": "Desarrollo frontend y aplicaciones web",
+        "statusTitle": "Actualmente",
+        "status": "Estudiante de noveno ciclo"
+    },
+    "resume": {
+        "download": "Descargar CV"
+    },
+    "experience": {
+        "label": "Trayectoria",
+        "title": "Experiencia académica",
+        "items": [
+            {
+                "period": "2026",
+                "title": "Mini-Docker Runtime",
+                "description": "Formé parte del equipo que desarrolló en Go un runtime básico de contenedores para ejecutar procesos aislados y comprender su funcionamiento en Linux.",
+                "points": [
+                    "Implementé la ejecución en modo detached, el supervisor de procesos, la captura de logs y la detención ordenada con SIGTERM y SIGKILL.",
+                    "El proyecto utilizó namespaces, cgroups v2 y rootfs, con configuración en YAML y persistencia del estado en JSON."
+                ],
+                "technologies": [
+                    "Go",
+                    "Linux",
+                    "Namespaces",
+                    "cgroups v2",
+                    "YAML",
+                    "JSON"
+                ]
+            },
+            {
+                "period": "2026",
+                "title": "HotelSys - Sistema de Gestión Hotelera",
+                "description": "Colaboré en el desarrollo de un sistema web con Python y Django para gestionar reservas, huéspedes, habitaciones, estancias, limpieza y facturación.",
+                "points": [
+                    "Fui responsable de los módulos de Reservas y Huéspedes, donde implementé el registro de clientes, la gestión de reservas y las validaciones de disponibilidad y solapamiento.",
+                    "Integré las reservas con los procesos de check-in y estancia mediante Django REST Framework y PostgreSQL; el sistema incorporó funciones en tiempo real."
+                ],
+                "technologies": [
+                    "Python",
+                    "Django",
+                    "Django REST Framework",
+                    "PostgreSQL"
+                ]
+            },
+            {
+                "period": "2026",
+                "title": "FairBet Lab - Plataforma Educativa de Apuestas",
+                "description": "Participé en el desarrollo de una plataforma educativa con Django para simular apuestas deportivas con moneda virtual, sin utilizar dinero real.",
+                "points": [
+                    "La plataforma incluyó usuarios, billetera virtual, eventos, cuotas, apuestas, liquidaciones, juego responsable y auditoría.",
+                    "La solución utilizó una API REST con autenticación JWT y actualizaciones en tiempo real mediante Django Channels, Redis y WebSockets."
+                ],
+                "technologies": [
+                    "Django",
+                    "API REST",
+                    "JWT",
+                    "Django Channels",
+                    "Redis",
+                    "WebSockets"
+                ]
+            },
+            {
+                "period": "2025",
+                "title": "Plataforma de Gestión de Voluntariado",
+                "description": "Participé en el desarrollo de una plataforma web con Java y Spring Boot para digitalizar la gestión de una organización de voluntariado.",
+                "points": [
+                    "El sistema centralizó la gestión de usuarios, actividades, donaciones, inventario y tesorería en una arquitectura monolítica definida por el equipo.",
+                    "La plataforma incluyó autenticación, control de acceso, generación de reportes en Excel y emisión de certificados en PDF."
+                ],
+                "technologies": [
+                    "Java",
+                    "Spring Boot",
+                    "Excel",
+                    "PDF"
+                ]
+            }
+        ]
+    },
+    "skills": {
+        "label": "Conocimientos",
+        "title": "Habilidades técnicas",
+        "groups": [
+            {
+                "title": "Lenguajes",
+                "items": [
+                    "Go",
+                    "Python",
+                    "Java",
+                    "JavaScript"
+                ]
+            },
+            {
+                "title": "Desarrollo web",
+                "items": [
+                    "HTML",
+                    "CSS",
+                    "Django",
+                    "Django REST Framework",
+                    "Spring Boot",
+                    "Thymeleaf",
+                    "Bootstrap",
+                    "Django Channels",
+                    "WebSockets"
+                ]
+            },
+            {
+                "title": "Datos y persistencia",
+                "items": [
+                    "SQL Server",
+                    "MySQL",
+                    "PostgreSQL",
+                    "Redis",
+                    "JPA/Hibernate"
+                ]
+            },
+            {
+                "title": "Sistemas y herramientas",
+                "items": [
+                    "Linux",
+                    "Docker",
+                    "Docker Compose",
+                    "Git"
+                ]
+            },
+            {
+                "title": "Pruebas de software",
+                "items": [
+                    "Diseño de casos de prueba",
+                    "Pruebas funcionales",
+                    "Documentación de incidencias"
+                ]
+            }
+        ]
+    },
+
+    "projects": {
+        "label": "Portafolio",
+        "title": "Proyectos académicos",
+        "viewCode": "Ver código",
+        "items": [
+            {
+                "year": "2026",
+                "category": "Sistemas y contenedores",
+                "title": "Mini-Docker Runtime",
+                "description": "Runtime básico de contenedores desarrollado en Go para ejecutar procesos aislados y comprender el funcionamiento interno de los contenedores en Linux.",
+                "technologies": [
+                    "Go",
+                    "Linux",
+                    "Namespaces",
+                    "cgroups v2",
+                    "YAML",
+                    "JSON"
+                ],
+                "repository": "https://github.com/JeanJairo06/Mini-Docker"
+            },
+            {
+                "year": "2026",
+                "category": "Desarrollo web",
+                "title": "HotelSys",
+                "description": "Sistema web para gestionar reservas, huéspedes, habitaciones, estancias, limpieza y facturación de un establecimiento hotelero.",
+                "technologies": [
+                    "Python",
+                    "Django",
+                    "Django REST Framework",
+                    "PostgreSQL"
+                ],
+                "repository": "https://github.com/JeanJairo06/HotelSys"
+            },
+            {
+                "year": "2026",
+                "category": "Plataforma educativa",
+                "title": "FairBet Lab",
+                "description": "Plataforma educativa para simular apuestas deportivas con moneda virtual, autenticación y actualizaciones de información en tiempo real.",
+                "technologies": [
+                    "Django",
+                    "REST API",
+                    "JWT",
+                    "Redis",
+                    "Django Channels",
+                    "WebSockets"
+                ],
+                "repository": "https://github.com/JeanJairo06/FairBet"
+            },
+            {
+                "year": "2025",
+                "category": "Gestión organizacional",
+                "title": "Gestión de Voluntariado",
+                "description": "Plataforma web para administrar usuarios, actividades, donaciones, inventario, tesorería, reportes y certificados.",
+                "technologies": [
+                    "Java",
+                    "Spring Boot",
+                    "Excel",
+                    "PDF"
+                ],
+                "repository": "https://github.com/GE-31/sistemadevoluntariado-grupo-02"
+            }
+        ]
+    },
+
+    "contact": {
+        "label": "Contacto",
+        "title": "Hablemos",
+        "heading": "¿Tienes un proyecto?",
+        "description": "Puedes comunicarte conmigo por correo o mediante mis redes profesionales.",
+        "write": "Escribirme",
+        "email": "Correo electrónico",
+        "linkedin": "Perfil profesional"
+    }
+}
