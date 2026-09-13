@@ -144,20 +144,6 @@
         "items": [
             {
                 "year": "2026",
-                "category": "Sistemas y contenedores",
-                "title": "Mini-Docker Runtime",
-                "description": "Runtime básico de contenedores desarrollado en Go para ejecutar procesos aislados y comprender el funcionamiento interno de los contenedores en Linux.",
-                "technologies": [
-                    "Linux",
-                    "Namespaces",
-                    "cgroups v2",
-                    "YAML",
-                    "JSON"
-                ],
-                "repository": "https://github.com/JeanJairo06/Mini-Docker"
-            },
-            {
-                "year": "2026",
                 "category": "Desarrollo web",
                 "title": "HotelSys",
                 "description": "Sistema web para gestionar reservas, huéspedes, habitaciones, estancias, limpieza y facturación de un establecimiento hotelero.",
