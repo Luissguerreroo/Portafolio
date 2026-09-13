@@ -19,14 +19,14 @@
     "about": {
         "label": "Conóceme",
         "title": "Sobre mí",
-        "firstParagraph": "Soy estudiante de noveno ciclo de Ingeniería de Sistemas con experiencia práctica desarrollando soluciones web y de sistemas.",
+        "firstParagraph": "Soy estudiante del decimo ciclo de Ingeniería de Sistemas con experiencia práctica desarrollando soluciones web y de sistemas.",
         "secondParagraph": "Tengo conocimientos en programación, APIs REST, bases de datos y pruebas de software. Me interesa seguir aprendiendo y desarrollándome profesionalmente en el área tecnológica.",
         "educationTitle": "Formación",
         "education": "Ingeniería de Sistemas - Universidad Señor de Sipán",
         "focusTitle": "Enfoque",
         "focus": "Desarrollo frontend y aplicaciones web",
         "statusTitle": "Actualmente",
-        "status": "Estudiante de noveno ciclo"
+        "status": "Estudiante del decimo ciclo"
     },
     "resume": {
         "download": "Descargar CV"
@@ -35,23 +35,6 @@
         "label": "Trayectoria",
         "title": "Experiencia académica",
         "items": [
-            {
-                "period": "2026",
-                "title": "Mini-Docker Runtime",
-                "description": "Formé parte del equipo que desarrolló en Go un runtime básico de contenedores para ejecutar procesos aislados y comprender su funcionamiento en Linux.",
-                "points": [
-                    "Implementé la ejecución en modo detached, el supervisor de procesos, la captura de logs y la detención ordenada con SIGTERM y SIGKILL.",
-                    "El proyecto utilizó namespaces, cgroups v2 y rootfs, con configuración en YAML y persistencia del estado en JSON."
-                ],
-                "technologies": [
-                    "Go",
-                    "Linux",
-                    "Namespaces",
-                    "cgroups v2",
-                    "YAML",
-                    "JSON"
-                ]
-            },
             {
                 "period": "2026",
                 "title": "HotelSys - Sistema de Gestión Hotelera",
@@ -108,7 +91,6 @@
             {
                 "title": "Lenguajes",
                 "items": [
-                    "Go",
                     "Python",
                     "Java",
                     "JavaScript"
@@ -134,8 +116,7 @@
                     "SQL Server",
                     "MySQL",
                     "PostgreSQL",
-                    "Redis",
-                    "JPA/Hibernate"
+                    "Redis"
                 ]
             },
             {
@@ -169,7 +150,6 @@
                 "title": "Mini-Docker Runtime",
                 "description": "Runtime básico de contenedores desarrollado en Go para ejecutar procesos aislados y comprender el funcionamiento interno de los contenedores en Linux.",
                 "technologies": [
-                    "Go",
                     "Linux",
                     "Namespaces",
                     "cgroups v2",

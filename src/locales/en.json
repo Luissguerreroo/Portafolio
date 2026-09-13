@@ -19,7 +19,8 @@
     "about": {
         "label": "Get to know me",
         "title": "About me",
-        "firstParagraph": "I am a ninth-semester Systems Engineering student with practical experience developing web and system solutions.",        "secondParagraph": "I have knowledge of programming, REST APIs, databases and software testing. I am interested in continuing to learn and grow professionally in technology.",
+        "firstParagraph": "I am a ninth-semester Systems Engineering student with practical experience developing web and system solutions.",
+        "secondParagraph": "I have knowledge of programming, REST APIs, databases and software testing. I am interested in continuing to learn and grow professionally in technology.",
         "educationTitle": "Education",
         "education": "Systems Engineering - Universidad Señor de Sipán",
         "focusTitle": "Focus",
@@ -34,23 +35,6 @@
         "label": "Background",
         "title": "Academic experience",
         "items": [
-            {
-                "period": "2026",
-                "title": "Mini-Docker Runtime",
-                "description": "I was part of the team that developed a basic container runtime in Go to execute isolated processes and understand how containers work in Linux.",
-                "points": [
-                    "I implemented detached execution, the process supervisor, log capture and orderly termination using SIGTERM and SIGKILL.",
-                    "The project used namespaces, cgroups v2 and rootfs, with YAML configuration and state persistence in JSON."
-                ],
-                "technologies": [
-                    "Go",
-                    "Linux",
-                    "Namespaces",
-                    "cgroups v2",
-                    "YAML",
-                    "JSON"
-                ]
-            },
             {
                 "period": "2026",
                 "title": "HotelSys - Hotel Management System",
@@ -107,7 +91,6 @@
             {
                 "title": "Programming languages",
                 "items": [
-                    "Go",
                     "Python",
                     "Java",
                     "JavaScript"
@@ -121,7 +104,6 @@
                     "Django",
                     "Django REST Framework",
                     "Spring Boot",
-                    "Thymeleaf",
                     "Bootstrap",
                     "Django Channels",
                     "WebSockets"
@@ -133,16 +115,13 @@
                     "SQL Server",
                     "MySQL",
                     "PostgreSQL",
-                    "Redis",
-                    "JPA/Hibernate"
+                    "Redis"
                 ]
             },
             {
                 "title": "Systems and tools",
                 "items": [
                     "Linux",
-                    "Docker",
-                    "Docker Compose",
                     "Git"
                 ]
             },
@@ -156,27 +135,11 @@
             }
         ]
     },
-
     "projects": {
         "label": "Portfolio",
         "title": "Academic projects",
         "viewCode": "View code",
         "items": [
-            {
-                "year": "2026",
-                "category": "Systems and containers",
-                "title": "Mini-Docker Runtime",
-                "description": "A basic container runtime developed in Go to execute isolated processes and understand how containers work internally on Linux.",
-                "technologies": [
-                    "Go",
-                    "Linux",
-                    "Namespaces",
-                    "cgroups v2",
-                    "YAML",
-                    "JSON"
-                ],
-                "repository": "https://github.com/JeanJairo06/Mini-Docker"
-            },
             {
                 "year": "2026",
                 "category": "Web development",
@@ -220,7 +183,6 @@
             }
         ]
     },
-
     "contact": {
         "label": "Contact",
         "title": "Let's talk",
